@@ -25,7 +25,7 @@ The app uses data from
 - Foursquare API
 - A default service worker for offline use once the data is      being cached and stored in your browser.
 
-The App has a `Map` component, and a `Sidebar` tha has a search for possible restaurants or coffee venues or simply click on the markers to get it's infomation.
+The App has a `Map` component, and a `Sidebar` that has a search for possible restaurants or coffee venues or simply click on the markers inside the map to get it's infomation.
 
 ## Contributing
 
