@@ -1,0 +1,123 @@
+html,
+body {
+  margin: 0;
+  padding: 0;  
+}
+
+#App {
+  background-color: #60b2ca;
+  text-align: center;
+  padding-bottom: 0;
+  font-family: sans-serif;
+}
+
+main {
+  display: flex;
+}
+
+.page-wrap {
+  padding: 0;
+}
+
+header {
+  background-color: #2e4857;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.header, .header-info {
+  color: #d0d9ff;
+}
+
+.footer {
+  margin-top: 0;
+  padding: 1rem;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.3);
+  
+}
+
+#map {
+  width: 100%;
+  height: 90vh;
+  padding: 0; 
+}
+
+.bm-item {
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #d1d1d1;
+  transition: color 0.2s;
+}
+
+.bm-item:hover {
+  color: white;
+}
+
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+.bm-burger-bars {
+  background: #46a7b8;
+}
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+  padding: 10px;
+}
+
+.bm-cross {
+  background: #bdc3c7;
+}
+
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+.bm-item-list {
+  color: #b8b7ad;
+}
+
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.search-form label {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  display: block;
+  text-align: left;
+  font-weight: bold;
+}
+
+.search-form input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #9c9c9c;
+  box-sizing: border-box;
+}
+
+.search-result li {
+  list-style: none;
+  padding: 0.5rem;
+  color: #d0d9ff;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+
+.search-result li:hover {
+  color: #05fce7;
+}
